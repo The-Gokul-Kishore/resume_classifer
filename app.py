@@ -67,7 +67,7 @@ category_mapping = {
 
 def main():
 
-    st.title("Resume Screening App")
+    st.title("Resume classifing App")
     uploaded_file =st.file_uploader('Upload Resume',type=['txt','pdf'])
     #check if file is uploaded or not
     if uploaded_file is not None:
